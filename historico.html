@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>historico</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 20px; /* Espaçamento de 20px das paredes */
+            box-sizing: border-box; /* Inclui o padding na largura e altura total */
+            width: calc(100% - 40px); /* Compensa o padding */
+            height: calc(100% - 40px); /* Compensa o padding */
+            display: flex;
+            background-color: #f0f0f0;
+            position: relative;
+        }
+        .opcoes {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px; /* Distância maior do topo */
+            justify-content: flex-start; /* Alinha os itens ao topo */
+            align-items: center;
+        }
+        .opcao {
+            margin-bottom: 10px; /* Espaçamento entre os quadrados da esquerda */
+            font-size: 40px;
+            width: 180px;
+            height: 150px;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .HistoricoDeAlarmes {
+            font-size: 40px;
+            width: calc(100% - 220px); /* Compensa a largura dos quadrados da esquerda e o espaçamento */
+            height: calc(100% - -10px); /* Compensa o padding vertical */
+            background-color: #000000;
+            color: #f0f0f0;
+            position: absolute;
+            top: 40px; /* Mantém 20px do topo */
+            left: 240px; /* Mantém 20px de distância dos quadrados da esquerda */
+        }
+    </style>
+</head>
+<body>
+    <div class="opcoes">
+       <a href="historico.html"><div class="opcao">Histórico</div></a> 
+       <a href="Cartão.html"><div class="opcao">Cartão</div></a>
+       <a href="Senha.html"><div class="opcao">Senha</div></a> 
+       <a href="agendar.html"><div class="opcao">Programar</div></a>
+       <a href="usuarios.html"> <div class="opcao">Usuários</div></a>
+       <a href=""></a> <div class="HistoricoDeAlarmes">Historico</div>
+    </div>
+  </body>
+</html>
